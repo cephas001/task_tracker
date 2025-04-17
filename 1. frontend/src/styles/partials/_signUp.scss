@@ -1,0 +1,45 @@
+.signup-wrapper {
+  font-size: 1.2em;
+  padding: 1em;
+  padding-top: 0;
+  color: white;
+  .username-style {
+    margin-top: 2em;
+  }
+   label {
+    font-size: .9em;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  button {
+    font-size: 0.75em;
+  }
+  i {
+    cursor: pointer;
+  }
+  h3 {
+    margin-top: 0;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+  input:not([type="submit"], [type="checkbox"]) {
+    font-size: 0.8em;
+    padding: 0.2em;
+    transiton: 1s;
+  }
+  a {
+    text-align: center;
+    font-size: .85em;
+    margin-top: 2em;
+  }
+  .error {
+    width: 89%;
+  }
+  .password-error {
+    margin-top: 2em;
+  }
+}
+

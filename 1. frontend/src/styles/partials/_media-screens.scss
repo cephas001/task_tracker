@@ -1,0 +1,221 @@
+@media screen and (max-width: 578px) {
+  .add-task-wrapper {
+    input[type="text"],
+    textarea {
+      padding: 0.4em;
+      font-size: 0.8em;
+    }
+    h3 {
+      font-size: 0.7em;
+    }
+    .agendas {
+      font-size: .9em;
+    }
+  }
+  .edit-task-wrapper {
+    text-align: center;
+    .agenda-container {
+      ul {
+        text-align: left;
+        div {
+          width: 90%;
+        }
+        .completed-agenda {
+          width: auto;
+          input[type="checkbox"] {
+            margin-left: 1em;
+          }
+        }
+      }
+    }
+    .info {
+      font-size: 0.8em;
+    }
+    .instruction {
+      margin-bottom: 1em;
+    }
+  }
+  .text-align-left {
+    text-align: left;
+  }
+  .container {
+    font-size: 0.95rem;
+  }
+  .edit-task-icon {
+    bottom: 0.2em;
+    right: 0.1em;
+  }
+  label {
+    font-size: .9em;
+  }
+  .sidebar-wrapper {
+    .harmburger {
+      width: auto;
+      padding: 2em;
+      padding-top: 25vh;
+    }
+    .no-display {
+      width: auto;
+      padding: 2em;
+      padding-top: 25vh;
+    }
+  }
+   .login-wrapper{
+    padding: 2em 0 0 0;
+    .error {
+      text-align: center;
+      width: 80%;
+      margin-left: 1em;
+    }
+    input[type="text"] {
+      padding: .2em;
+      font-size: .8em;
+    }
+    input:not([type="submit"], [type="checkbox"]):focus {
+    border: 1px solid black;
+    border-radius: 0;
+    }
+    h3 {
+      font-size: .8em;
+    }
+    a {
+      font-size: .85em;
+      text-align: center;
+      &:focus {
+        color: black;
+      }
+    }
+  }
+  .forgot-password {
+    padding-top: 2.5em;
+    a {
+      width: auto;
+    }
+  }
+  .signup-wrapper {
+    padding: 0;
+    form {
+      width: 100%;
+    }
+    .error {
+      text-align: center;
+    }
+    .password-error {
+      margin-top: 1em;
+    }
+    input[type="text"] {
+      padding: .2em;
+      font-size: .8em;
+    }
+    input:not([type="submit"], [type="checkbox"]):focus {
+    border: 1px solid black;
+    border-radius: 0;
+    }
+    input:not([type="submit"], [type="checkbox"]),
+    textarea{
+      border-radius: 0;
+    } 
+    h3 {
+      font-size: .8em;
+    }
+    a {
+      font-size: .85em;
+      text-align: left;
+      &:focus {
+        color: black;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .container {
+    max-width: 632px;
+    margin: 0 auto;
+  }
+  .edit-task-icon,
+  .add-task-btn {
+    right: 15%;
+  }
+  .container { 
+    padding: 4%;
+    padding-top: 2em;
+  }
+  .sidebar-wrapper {
+    .no-display {
+      position: fixed;
+      left: -10em;
+    }
+    .harmburger {
+      position: fixed;
+      left: 2em;
+    }
+  }
+}
+
+
+@media screen and (max-width: 321px) {
+  .login-wrapper, .signup-wrapper {
+    i {
+     margin-left: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact-wrapper {
+   .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    border-radius: 50%;
+  } 
+  .social-icons {
+    text-align: center;
+  }
+  .about {
+    text-align: left;
+    margin-top: 1em;
+  }
+  }
+}
+
+
+@media screen and (max-width: 377px) {
+  .contact-wrapper {
+    .success {
+      display: block;
+      text-align: center;
+      .smile-icon {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:398px) {
+  .entry-wrapper {
+    .links {
+      flex-direction: column;
+      width: fit-content;
+      a {
+        text-align: center;
+      }
+    }
+    h1 {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 451px){
+  .container {
+    padding: 4%;
+  }
+  .second-layer {
+    .topnav {
+      background-color: transparent;
+    }
+  }
+}

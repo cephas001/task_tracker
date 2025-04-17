@@ -1,0 +1,81 @@
+.contact-wrapper {
+	color: white;
+	form {
+		position: relative;
+		padding: .5em;
+	}
+	label {
+		text-transform: uppercase;
+		color: #7FFFD4;
+		font-family: 'Dongle', sans-serif;
+	}
+	h1, h3 {
+		font-size: 1.5em;
+		font-weight: normal;
+		margin: 0;
+	}
+	.about {	
+		margin: 1em 0 0 0;
+		color: #7FFFD4;
+		font-size: 1.8em;
+		font-family: 'Dongle', sans-serif;
+	} 
+	.reach {
+		margin-bottom: .5em;
+		margin-top: 0;
+	}
+	input[type="text"]{
+		width: 90%;
+	}
+	textarea {
+		height: 200px;
+		width: 92%;
+	}
+	.send-icon {
+		position: absolute;
+		right: 0;
+		bottom: -.2em;
+		color: #7FFFD4;
+		font-size: 3em;
+		&:hover, &:focus {
+			font-size: 3.2em;
+		}
+	}
+	button {
+		width: 0;
+		padding: 0;
+		&:hover {
+			color: white;
+		}
+	}
+	.fa {
+	  padding: 8px;
+	  font-size: 25px;
+	  width: 50px;
+	  text-align: center;
+	  font-weight: 400;
+	  text-decoration: none;
+	  margin: 5px 5px;
+	  color:  #FDFEFF;
+	}
+
+	.fa:hover, .fa:focus {
+	    opacity: 0.7;
+	}
+
+	.fa-facebook {
+	  background: #3B5998;
+	  color: #FDFEFF;
+	}
+	.fa-phone {
+	  background: #5BC236;
+	}
+	.fa-twitter {
+	  background: #55ACEE;
+	}
+
+	.fa-instagram {
+	  background: #fb3958;
+	}
+	
+}

@@ -1,0 +1,49 @@
+.popup {
+	display: grid;
+	grid-template-rows: 100px auto;
+	width: 250px;
+	.value {
+		padding: .5em;
+		font-family: 'Dongle', sans-serif;
+		font-weight: normal;
+		font-size: 1.2em;
+		text-align: center;
+		background-color: white;
+    	border: 1px solid gray;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+		h2 {
+			margin: 0;
+		}
+	}
+	.btns {
+		display: flex;
+		border: 1px solid gray;
+		button {
+			width: 100%;
+			margin-top: 0;
+			background: white;
+			color: black;
+			font-weight: bold;
+			border: none;
+			&:not(:nth-child(3)) {
+				border-right: 1.3px solid gray;
+			}
+			&:nth-child(3){
+				border-right: 1px solid transparent;
+			}
+			&:hover {
+				background-color: black;
+				color: white;
+				font-weight: normal;
+			}
+		}
+	}
+
+}
+.popup-wrapper {
+	margin-top: 27vh;
+	display: flex;
+	justify-content: center;
+}

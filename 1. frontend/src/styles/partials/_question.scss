@@ -1,0 +1,22 @@
+.question-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  h2 {
+    margin-bottom: 2em;
+  }
+  a {
+    margin: 0 auto;
+    margin-bottom: 1em;
+    text-decoration: none;
+    font-size: 1em;
+    color: green;
+    padding: 1em;
+    background-color: black;
+    &:hover {
+      color: black;
+      background-color: green;
+    }
+  }
+}

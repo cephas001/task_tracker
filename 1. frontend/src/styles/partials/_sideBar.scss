@@ -1,0 +1,53 @@
+.sidebar-wrapper {
+  .harmburger {
+    background-color: #000000;
+    position: absolute;
+    z-index: 999;
+    min-height: 90vh;
+    top: 0;
+    bottom: 0;
+    visibility: visible;
+    width: 40%;
+    text-align: left;
+    padding: 1em;
+    padding-top: 120px;
+    transition: all 1s;
+  }
+  .harmburger-show {
+    transform: translateX(-2.3em);
+  }
+  i {
+    font-size: 1em;
+    font-weight: 800;
+    color: #7FFFD4;
+  }
+  h1 {
+    font-size: 1.2em;
+    color: #7FFFD4;
+    font-weight: normal;
+    margin-left: 1px;
+  }
+  .sidebar-btn {
+    font-size: 1em;
+    color: #7FFFD4;
+    border-radius: 2px;
+    padding: 6px;
+    border: white;
+    background-color: #1c1a1a;
+    transition: all .5s;
+    &:hover, &:focus {
+      color: black;
+      font-weight: bold;
+      background-color: white;
+    }
+  }
+  a {
+    margin-top: 0;
+  }
+  .margin {
+    margin-top: 15px;
+  }
+  .no-display {
+    transform: translateX(-40em);
+  }
+}

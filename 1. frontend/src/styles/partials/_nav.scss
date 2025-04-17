@@ -1,0 +1,44 @@
+.nav-wrapper {
+	.router-link {
+	  text-decoration: none;
+	  color: #7FFFD4;
+	  text-shadow: 2px 3px black;
+	  margin-top: 0;
+	  &:hover {
+	    text-decoration: none;
+	  }
+	}
+	.flex {
+    	display: flex;
+    	flex-direction: row;
+  	}
+  	.flex1 {
+    	flex-direction: column;
+  	}
+  	.welcome-name {
+	    justify-content: space-between;
+	    align-items: center;
+	    margin: 1em 0 1em 0;
+	    h1 {
+	      font-size: 1.3em;
+	      font-weight: normal;
+	      a {
+	        color: #7FFFD4;
+	        font-weight: bold;
+	        text-shadow: 2px 3px black;
+	        margin-top: 0;
+	      }
+	    }
+	    i {
+	      font-size: 17px;
+	    }
+  	}
+  	.harmburger-icon {
+	    transition: all 0.5s;
+	    color: #7FFFD4;
+	}
+	.rotate {
+	    transform: rotate(45deg);
+	    display: block;
+	}
+}

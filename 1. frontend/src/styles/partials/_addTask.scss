@@ -1,0 +1,75 @@
+.add-task-wrapper {
+  font-size: 19px;
+  color: white;
+  form {
+    padding: 0.5em;
+  }
+  label {
+    margin-top: 1em;
+    display: block;
+  }
+  .you-can {
+    color: yellow;
+    font-size: 1em;
+  }
+  label:first-child {
+    display: block;
+    margin-top: 0;
+  } 
+  input[type="text"], textarea{
+    &::placeholder{
+      color: #066445;
+    }
+  }
+  label, .agendas{
+    text-transform: uppercase;
+    color: #7FFFD4;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.2em;
+  }
+  .flex {
+    display: flex;
+  }
+  h3 {
+    margin-top: 0;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+  .justify-content {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex1 {
+    flex-direction: column;
+  }
+  .welcome-name {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .agenda {
+    margin-bottom: 1em;
+  }
+  i {
+    margin: 0 5px 0 5px;
+  }
+  .agendas {
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+.agenda-instruction {
+  margin-bottom: 1.3em;
+}
+.edit-task-icon {
+  font-size: 2.5em;
+}
+span {
+  font-size: .8em;
+}
+
+.button {
+  padding: 0;
+}
+}
+
+

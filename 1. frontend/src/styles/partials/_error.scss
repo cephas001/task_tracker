@@ -1,0 +1,19 @@
+.error-page-wrapper {
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+  .btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

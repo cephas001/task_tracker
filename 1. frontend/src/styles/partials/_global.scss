@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  background-image: linear-gradient(#000000b3, #000000bf), url("../assets/thevaler_s-X2AQjShIJRg-unsplash.jpg");
+}
+.topnav {
+  padding: .5em;
+}
+.second-bg {
+  background-image: linear-gradient(#000000b3, #000000bf), url("../assets/ilya-bronskiy-W-xcKfFArbQ-unsplash.jpg");
+}
+.second-layer {
+  background-image: linear-gradient(45deg,#ffffff5e, #00000047),  url("../assets/thevaler_s-X2AQjShIJRg-unsplash.jpg");
+  .topnav {
+    background-color: #00000082;
+  }
+  .edit-task-icon {
+    color: black;
+  }
+  .router-link {
+    text-shadow: none;
+  }
+}
+#app {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+.container {
+  padding: 5%;
+  position: relative;
+  min-height: 100vh;
+}
+input:not([type="submit"], [type="checkbox"]),
+textarea {
+  display: block;
+  width: 90%;
+  outline: none;
+  font-size: 0.9em;
+  appearance: none;
+  margin: 0.5em 0 0.5em 0;
+  padding: 0.5em;
+  font-family: inherit;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+input:not([type="submit"], [type="checkbox"]):focus {
+  border: 1px solid black;
+}
+textarea {
+  height: 150px;
+  resize: none;
+  font-size: 1em;
+  border-radius: 0;
+  &:focus {
+    border: 1px solid black;
+  }
+  &::placeholder {
+    font-size: 0.9em;
+  }
+}
+label:first-child {
+  display: block;
+  margin-top: 1em;
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  transition: 0.5s;
+  margin-top: 1em;
+}
+a:hover {
+  text-decoration: underline;
+}
+.error {
+  background-color: #f951515c;
+  border: 1px solid red;
+  padding: 5px;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-family: "PT Sans", "sans-serif";
+}
+input[type="checkbox"] {
+  appearance: none;
+  font: inherit;
+  color: currentColor;
+  width: 1em;
+  height: 1em;
+  border: 0.14em solid currentColor;
+  border-radius: 0.15em;
+  position: relative;
+  &:checked {
+    background-color: white;
+    border: 0.12em solid black;
+  }
+}
+.dim {
+  display: none;
+}
+summary {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+summary {
+  cursor: pointer;
+  list-style: none;
+  /* Triangle not shown */
+}
+/* Style für Webkit-Browser */
+summary::-webkit-details-marker {
+  display: none; /* Triangle not shown */
+}
+summary::before {
+  padding-right: 10px;
+  margin-top: -1px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f103";
+  /* Instead of Triangle closed */
+}
+details[open] summary::before {
+  padding-right: 10px;
+  margin-top: -1px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f102";
+  /* Instead of Triangle open */
+}
+.add-task-btn {
+  position: fixed;
+  bottom: 1.5em;
+  right: 20px;
+  font-size: 2.5em;
+  color: white;
+}
+.edit-task-icon {
+  font-size: 3em;
+  position: fixed;
+  right: 10px;
+  bottom: 0.2em;
+  cursor: pointer;
+}
+.cancel-icon {
+  bottom: 0.5em;
+}
+.move-up {
+  bottom: 0.5em;
+}
+.color-white {
+  color: white;
+}
+.selection-none {  
+  ::selection {
+    color: none;
+    background: none;
+  } 
+  ::moz-selection {
+    color: none;
+    background: none;
+  }
+  input, textarea {
+    &::selection {
+      color: white;
+      background: green;
+    }
+    &::moz-selection {
+    color: white;
+    background: green;
+  }
+  }
+}
+ i {
+    cursor: pointer;
+  }
+
+
+
+
+
+  

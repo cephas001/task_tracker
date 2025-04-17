@@ -1,0 +1,18 @@
+button {
+  padding: 0.5em;
+  background: black;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+  font-family: inherit;
+  color: white;
+  margin-top: 1em;
+  font-size: 0.9em;
+  transition: 0.5s;
+}
+button:hover {
+  background: white;
+  color: black;
+  border: 1px solid white;
+  font-weight: bold;
+}

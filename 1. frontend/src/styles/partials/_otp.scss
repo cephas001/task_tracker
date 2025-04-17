@@ -1,0 +1,50 @@
+.otp-wrapper {
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+  padding: 1em;
+  .instruction {
+    font-family: "PT Sans", "sans-serif";
+    font-size: 1em;
+  }
+  .instruction-summary {
+    cursor: pointer;
+    font-size: 1.1em;
+  }
+  h3 {
+    font-size: 0.9em;
+    margin-top: 0;
+  }
+  form {
+    input[type="text"] {
+      padding: 0.1em;
+      font-size: 1em;
+      width: 100%;
+    }
+  }
+  a {
+    width: fit-content;
+    text-decoration: none;
+    font-size: .82em;
+    padding: .8em;
+    margin: 0;
+    background-color: black;
+    &:hover {
+      color: black;
+      font-weight: bold;
+      background-color: white;
+    }
+  }
+  .links {
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  button {
+    margin: 0;
+  }
+  button:hover {
+    border-radius: 0;
+  }
+}

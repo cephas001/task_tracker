@@ -1,0 +1,31 @@
+{
+  "name": "api_backend_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Okodugha Peter",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-session": "^1.17.2",
+    "helmet": "^5.0.2",
+    "ioredis": "^4.28.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.2.0",
+    "mongoose": "^6.0.12",
+    "nodemailer": "^6.7.2",
+    "otp-generator": "^4.0.0"
+  }
+}

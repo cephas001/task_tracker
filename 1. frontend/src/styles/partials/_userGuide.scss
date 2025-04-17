@@ -1,0 +1,11 @@
+.user-guide-task-wrapper {
+  min-height: 100vh;
+  color: white;
+  a {
+    display: inline;
+    text-decoration: underline;
+    &:hover {
+      color: green;
+    }
+  }
+}

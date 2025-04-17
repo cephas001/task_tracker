@@ -1,0 +1,30 @@
+.entry-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20vh;
+  align-items: center;
+  h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 2em;
+  }
+  sub {
+    font-family: 'Dongle', sans-serif;
+  }
+  .links {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: .5em 1.5em .5em 1.5em;
+    background-color: black;
+    &:hover {
+      color: black;
+      background-color: white;
+      font-weight: bold;
+    }
+  }
+}
